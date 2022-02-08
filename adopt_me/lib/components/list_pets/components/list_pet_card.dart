@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors_in_immutables, prefer_typing_uninitialized_variables
 
 import 'package:adoptme/components/constants.dart';
-import 'package:adoptme/components/custom_icons_icons.dart';
 import 'package:flutter/material.dart';
 
 class ListPetCard extends StatefulWidget {

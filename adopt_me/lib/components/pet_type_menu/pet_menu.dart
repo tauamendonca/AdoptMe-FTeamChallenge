@@ -11,13 +11,13 @@ class PetMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(children: [
       //menu toggle-switch
-      SwitchMenu(
+      const SwitchMenu(
         switchMenuIcon: CustomIcons.switch_icon,
         switchMenuIconColor: cGray3,
       ),
 
       //Divisor de espaço
-      SizedBox(width: 15),
+      const SizedBox(width: 15),
 
       //Lista de espécies de pet
       Expanded(

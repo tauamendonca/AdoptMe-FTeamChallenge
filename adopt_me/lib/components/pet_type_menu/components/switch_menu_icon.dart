@@ -25,7 +25,7 @@ class SwitchMenu extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
       ),
       child: SizedBox(
-        height: 0,
+        height: 50,
         width: 50,
         child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
           Icon(switchMenuIcon, color: switchMenuIconColor),
