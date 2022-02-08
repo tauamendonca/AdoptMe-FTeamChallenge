@@ -8,48 +8,32 @@ class CustomIcons {
   static const _kFontFam = 'CustomIcons';
   static const String? _kFontPkg = null;
 
-  //menu da appbar
-  static const IconData menu =
-      IconData(0xf008, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  //filtro de pets
-  static const IconData switch_icon =
-      IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  //pets
-  static const IconData bird =
-      IconData(0xe804, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData cat =
-      IconData(0xe805, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData dog =
-      IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  //coração
-  static const IconData favorite =
+  static const IconData appbar_menu =
       IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData favorite_border =
+  static const IconData bird =
       IconData(0xe801, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  //localização
-  static const IconData location =
+  static const IconData cat =
       IconData(0xe802, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  //seta pra esquerda da página do pet
-  static const IconData left_open =
+  static const IconData dog =
+      IconData(0xe803, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData switch_icon =
+      IconData(0xe804, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData favorite =
+      IconData(0xe805, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData favorite_border =
+      IconData(0xe806, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData paw_1 =
       IconData(0xe807, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  //pata
-  static const IconData paw =
-      IconData(0xf1b0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  //símbolo feminino
+  static const IconData location =
+      IconData(0xe808, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData chevron_left =
+      IconData(0xf053, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData venus =
       IconData(0xf221, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-
-  //símbolo masculino
   static const IconData mars =
       IconData(0xf222, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
+
 
 /// Flutter icons CustomIcons
 /// Copyright (C) 2022 by original authors @ fluttericon.com, fontello.com
@@ -73,8 +57,8 @@ class CustomIcons {
 ///         Author:    Dave Gandy
 ///         License:   SIL ()
 ///         Homepage:  http://fortawesome.github.com/Font-Awesome/
-/// * MFG Labs, Copyright (C) 2012 by Daniel Bruce
-///         Author:    MFG Labs
-///         License:   SIL (http://scripts.sil.org/OFL)
-///         Homepage:  http://www.mfglabs.com/
+/// * Font Awesome 5, Copyright (C) 2016 by Dave Gandy
+///         Author:    Dave Gandy
+///         License:   SIL (https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt)
+///         Homepage:  http://fortawesome.github.com/Font-Awesome/
 ///

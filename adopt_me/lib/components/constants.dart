@@ -17,3 +17,32 @@ const cGray2 = Color(0xFFB6B6B6);
 
 //cinza para ícones e textos menores
 const cGray3 = Color(0xFFCBCBCB);
+
+//Estilos de texto
+
+//Nome do pet no card
+const cTitleStyle = TextStyle(
+  fontWeight: FontWeight.bold,
+  fontSize: 18,
+);
+
+//Local do usuário
+const cUserLocalStyle = TextStyle(
+  fontWeight: FontWeight.bold,
+  fontSize: 16,
+  color: cTextColor,
+);
+
+//Raça do pet
+const cSubtitleStyle = TextStyle(
+  fontWeight: FontWeight.w700,
+  fontSize: 12,
+  color: cGray1,
+);
+
+//Location e textos dos cards
+const cBaseTextStyle = TextStyle(
+  fontWeight: FontWeight.normal,
+  fontSize: 14,
+  color: cGray3,
+);
